@@ -15,6 +15,7 @@
 		82B641192606D92400E8BE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B641172606D92400E8BE36 /* LaunchScreen.storyboard */; };
 		82B641242606D92500E8BE36 /* CommunityClosetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B641232606D92500E8BE36 /* CommunityClosetTests.swift */; };
 		82B6412F2606D92500E8BE36 /* CommunityClosetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B6412E2606D92500E8BE36 /* CommunityClosetUITests.swift */; };
+		82B641492606EBE200E8BE36 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B641482606EBE200E8BE36 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		82B6412A2606D92500E8BE36 /* CommunityClosetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityClosetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B6412E2606D92500E8BE36 /* CommunityClosetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityClosetUITests.swift; sourceTree = "<group>"; };
 		82B641302606D92500E8BE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B641482606EBE200E8BE36 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		82B641422606D9BF00E8BE36 /* ViewModal */ = {
 			isa = PBXGroup;
 			children = (
+				82B641482606EBE200E8BE36 /* MainTabBarController.swift */,
 			);
 			path = ViewModal;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				82B641112606D91F00E8BE36 /* ViewController.swift in Sources */,
 				82B6410D2606D91F00E8BE36 /* AppDelegate.swift in Sources */,
+				82B641492606EBE200E8BE36 /* MainTabBarController.swift in Sources */,
 				82B6410F2606D91F00E8BE36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
